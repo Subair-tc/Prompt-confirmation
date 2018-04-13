@@ -1,0 +1,86 @@
+.mail-templates-loading, .mail-templates-success{
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background-size:200px !important;
+	display:none;
+	z-index:100;
+}
+.mail-templates-loading{
+	background:url(../images/loading.gif)  no-repeat  center center rgba(255,255,255,0.7);
+}
+.mail-templates-success{
+	background: url(../images/success.png) no-repeat center center rgba(255,255,255,0.7)
+}
+.mt_table_links{ font-size:20px;padding-right:7px; text-decoration:none;}
+.mt_table_links:last-child{padding:0px;}
+.mt_table_links:hover{text-decoration:none;}
+.mail-templates {
+    float: left;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: 30px;
+}
+ul.properties {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border: 1px dashed;
+    margin-top: 35px;
+}
+.test_this_cron_block {
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+}
+.test_this_cron_block label {
+    float: left;
+    line-height: 37px;
+    margin-right: 24px;
+}
+.test_this_cron_block input {
+    height: 35px;
+    margin-right: 12px;
+}
+h4.temp_title {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    font-size: 21px;
+}
+.subject {
+    text-align: center;
+    margin-top: 26px;
+}
+.message-content > span {
+    text-align: center;
+    margin-bottom: 13px;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.template_top_block {
+    padding-bottom: 20px;
+    border-bottom: 4px solid #204d74;
+}
+.test_this_cron_block span.error {
+    float: left;
+    width: 100%;
+    color: #ff0000;
+    text-align: center;
+}
+th span.info {
+    font-size: 10px !important;
+    float: left;
+    font-weight: 100 !important;
+}
+.buttons {
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
+}
